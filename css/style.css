@@ -20,7 +20,6 @@ body {
     background-color: rgb(78, 78, 78);
     border-radius: 7px;
     margin-left: 10px;
-
 }
 
 .btn a {
@@ -108,4 +107,11 @@ main {
     padding: 10px;
 }
 
+.btn2:nth-of-type(4) i {
+    color: green;
+}
 
+.btn3 a {
+    text-decoration: none;
+    color: red;
+}
