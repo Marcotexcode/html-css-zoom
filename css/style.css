@@ -28,8 +28,16 @@ body {
     text-decoration: none;
 }
 
+.btn2 {
+    display: inline-block;
+    text-align: center;
+    padding: 20px 5px 20px 20px;
+    vertical-align: middle;
+}
 
-
+.btn2 i {
+    font-size: 25px;
+}
 
 /* HEADER */
 
@@ -45,12 +53,12 @@ header {
 /* CORPO */
 
 main {
-    height: 100vh;
+    height: calc(100vh - 124px);
 }
 .cont-box {
     overflow: auto;
     display: flex;
-    height: 50%;
+    height: 100%;
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -77,11 +85,16 @@ main {
     background-color: rgba(53, 53, 53, 0.452);
 }
 
-
-
 /* FOOTER */
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
 
+.col-dx {
+    background-color: grey;
+}
 
 
 
